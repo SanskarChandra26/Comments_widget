@@ -1,0 +1,44 @@
+{
+  "currentUser": {
+    "username": "juliusomo"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "Impressive! Keep up the good work.",
+      "createdAt": "23 November 2022",
+      "score": 12,
+      "username": "amyrobson",
+      "currentUser": false,
+      "replies": []
+    },
+    {
+      "id": 2,
+      "content": "How did you manage your finances",
+      "createdAt": "5 December 2022",
+      "score": 5,
+      "username": "maxblagun",
+      "currentUser": false,
+      "replies": [
+        {
+          "id": 3,
+          "content": "@maxblaugn, Just kept exploring new opportunities",
+          "createdAt": "18 December 2022",
+          "score": 4,
+          "username": "ramsesmiron",
+          "currentUser": false,
+          "replies": []
+        },
+        {
+          "id": 4,
+          "content": "@ramsesmiron, I couldn't agree more with this.Exploration is really important aspect of growth",
+          "createdAt": "19 December 2022",
+          "score": 2,
+          "username": "juliusomo",
+          "currentUser": true,
+          "replies": []
+        }
+      ]
+    }
+  ]
+}
