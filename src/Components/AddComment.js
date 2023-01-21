@@ -30,7 +30,7 @@ const AddComment = ({ buttonValue, addComments, replyingTo }) => {
 				className="comment-input"
 				maxlength="200"
 				placeholder="Add a comment"
-				value={replyingToUser + comment}
+				value={comment}
 				onChange={(e) => {
 					setComment(
 						e.target.value.replace(replyingTo ? `@${replyingTo}, ` : "", "")
